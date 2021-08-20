@@ -1,0 +1,85 @@
+.Studies{
+    margin-top: 100px;
+    background: linear-gradient(#5a68b6 0%,#464242  100%); /* #4A548C */
+    /* background-size: cover; */
+    height: 1000px;
+    position: relative;
+    
+    transition: 0.8s height cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+
+.StudiesCollapse {
+    height: 1100px;
+}
+
+
+.Studies h2 {
+    padding-top: 260px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+ 
+    background: linear-gradient(103.49deg, #FFFFFF 0%,#f08e97 100.7%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.StudiesGroup {
+    margin: 30px 250px 0px;
+    /* 
+    padding-bottom: 260px; 
+    wave! 
+    */
+    display: flex;
+    flex-direction: column;
+    justify-items: center; 
+}
+
+/*CardCerti arrow title*/
+.StudiesGroup h4 {
+    margin: 0 auto;
+    font-weight: 400;
+
+}
+
+.StudiesGroup button {
+    transform: skew(10deg);
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+
+.Arrow {
+    transition: 0.8s transform cubic-bezier(0.2, 0.8, 0.2, 1.0), 0.8s margin cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    margin: 5px 0;
+}
+.ArrowRotate{
+    transform:  rotate(180deg); 
+    margin: 5px 0;
+}
+
+@media (max-width: 1200px){
+    .StudiesGroup {
+        margin: 30px 100px 100px;
+    }
+ 
+  }
+
+@media (max-width: 920px){
+    .StudiesGroup {
+        margin: 30px 40px 100px;
+    }
+ 
+}
+
+@media (max-width: 750px){
+    .StudiesGroup {
+        margin: 30px 40px 100px;
+    }
+ 
+}

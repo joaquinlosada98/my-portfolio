@@ -1,0 +1,136 @@
+.Contact{
+    height: 620px;
+    background:#464242; /* #4A548C */
+}
+
+.Contact h2 {
+    margin: 0 auto 30px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+ 
+    background: linear-gradient(103.49deg, #f8e6e6 0%,#fd96a1 100.7%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ContactGroup {
+    height: 480px;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.Form {
+    border: 2px solid #fd96a1;
+    color: #fcfcfc;
+    padding: 20px;
+}
+.Form h3 {
+    margin:0 auto 25px;
+    font-size: 30px;
+
+    font-weight: 700;
+    background: linear-gradient(103.49deg, #f8e6e6 0%,#fd96a1 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ContactList{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 10px;
+}
+
+#mail{
+    margin-bottom: 20px;
+    width: 50%;
+    text-decoration: none;
+    color: #fcfcfc;
+    transition: 0.8s color cubic-bezier(0.2, 0.8, 0.2, 1), 0.8s transform cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+#mail:hover {
+    color: #f8afb6;
+    transform: translateX(-5px);
+    
+}
+
+.Links { 
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Links a{
+    margin-right: 25px;
+    text-decoration: none;
+    transition: 0.8s transform cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Links a:hover{
+    transform: translateY(-5px);
+}
+
+
+.ContactList img {
+    width: 50px;
+    pointer-events: none;
+}
+
+.Cvs a {
+    font-size: 17px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #ffb0b7;
+
+}
+
+
+
+.MapSection{
+    background-color: #464242;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.MapSection svg {
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+@media (max-width: 1366px){
+    #mail { 
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .Contact{
+        height: 960px;
+    }
+    .ContactGroup{
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+        height: 780px;
+    }
+
+    .Form { height: 390px; }
+    .MapSection {
+        height:390px;
+    }
+
+    #mail {
+        width: 60%;
+    }
+}

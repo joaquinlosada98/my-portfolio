@@ -1,0 +1,33 @@
+.Works h2 {
+    margin: 50px 20px 30px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(104.74deg, #050A27 0%,#4A548C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.WorksGroup { 
+    margin: 0px auto 100px;
+    padding: 20px 0 40px;
+    width:  100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.WorksGroup.active {
+    background: rgba(255,255,255,0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}

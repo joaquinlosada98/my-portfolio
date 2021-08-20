@@ -1,0 +1,43 @@
+
+
+.AboutMe h2{
+    margin: 60px 20px 30px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(104.74deg, #050A27 0%,#4A548C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .CardGroup {
+    margin: 30px 100px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "card1 card1"
+        "card2 card3";
+    grid-gap: 40px;
+    justify-items: center;
+  }
+  
+  .CardGroup div:nth-of-type(1){
+    grid-area: card1;
+  }
+  .CardGroup div:nth-of-type(2){
+    grid-area: card2;
+  }
+  .CardGroup div:nth-of-type(3){
+    grid-area: card3;
+    
+  }
+  
+  @media (max-width: 920px){
+    .CardGroup {
+        margin: 30px 40px 100px;
+        grid-template-columns: repeat(1, auto);
+        grid-template-areas: "card1" "card2" "card3";
+    }
+  }

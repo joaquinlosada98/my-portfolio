@@ -1,0 +1,8 @@
+usos de imagenes gatsby:
+
+- staticImage -> solamente para rutas estaticas
+- GatsbyImage -> se utiliza solamente con graphQl -> la info es dinamica 
+
+
+
+staticImage -> contact, JobExperiences
