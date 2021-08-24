@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import img from '../images/dev/example.png';
 
 const CardItem = styled.div`
     display: grid;
@@ -17,12 +18,9 @@ const CardItem = styled.div`
     grid-template-rows: 40% auto;
 
     &:hover {
-        /*transform: scale(1.025, 1.025);*/
         transform: translateY(-10px);
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     }
-
-    /* grid-template-rows: ""; */
     
     @media (max-width: 500px) {
         min-height: 300px;
@@ -38,11 +36,11 @@ const Image = styled.img`
     height: 100%;
     pointer-events: none;
     /*min-height: 150px;*/
-
-    @media (max-width: 500px) {
+    
+    /* @media (max-width: 500px) {
         width: 100%;
         
-    }
+    } */
    
 `
 
@@ -130,7 +128,7 @@ const ButtonDis = styled.a`
     }
 
 `
-const CardWork = ({img, title, description, url, status}) => {
+const CardWork = ({title, description, url, status}) => {
 
     const BtnEnable = <Button>View</Button>
     const BtnDisabled = <ButtonDis>In progress</ButtonDis>

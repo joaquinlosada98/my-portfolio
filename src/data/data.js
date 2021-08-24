@@ -1,35 +1,35 @@
-const skillList = [
+const skillData = [
 
     // Front end
     {
         section: "front-end",
         name:  "React & Redux",
         status:  "Advanced", 
-        image: "./images/dev/logo-react.png"
+        imageName: "logo-react"
     },
     {
         section: "front-end",
         name:  "VueJs & Vuex",
         status:  "Advanced",
-        image: "./images/dev/logo-vuejs.png" 
+        imageName: "logo-vuejs" 
     },
     {
         section: "front-end",
         name:  "PWA",
         status:  "Advanced",
-        image: "./images/dev/logo-pwa.png" 
+        imageName: "logo-pwa" 
     },
     {
         section: "front-end",
         name:  "JavaScript",
         status:  "Advanced",
-        image: "./images/dev/logo-js.png" 
+        imageName: "logo-js" 
     },
     {
         section: "front-end",
         name:  "A-Frame",
         status:  "Advanced",
-        image: "./images/dev/logo-aframe.png"   
+        imageName: "logo-aframe"   
     },
 
     // Back end
@@ -37,19 +37,19 @@ const skillList = [
         section: "back-end",
         name:  "Laravel",
         status:  "Advanced",
-        image: "./images/dev/logo-laravel.png" 
+        imageName: "logo-laravel" 
     },
     {
         section: "back-end",
         name:  "NodeJs",
         status:  "Advanced",
-        image: "./images/dev/logo-node.png" 
+        imageName: "logo-node" 
     },
     {
         section: "back-end",
         name:  "PHP",
         status:  "Advanced",
-        image: "./images/dev/logo-php.png" 
+        imageName: "logo-php" 
     },
 
     // Database
@@ -57,19 +57,19 @@ const skillList = [
         section: "database",
         name:  "MongoDB",
         status:  "Advanced",
-        image: "./images/dev/logo-mongo.png" 
+        imageName: "logo-mongo" 
     },
     {
         section: "database",
         name:  "MySQL",
         status:  "Advanced",
-        image: "./images/dev/logo-mysql.png" 
+        imageName: "logo-mysql" 
     },
     {
         section: "database",
         name:  "phpMyAdmin",
         status:  "Advanced",
-        image: "./images/dev/logo-phpmyadmin.png" 
+        imageName: "logo-phpmyadmin" 
     },
 
     // Design
@@ -77,22 +77,22 @@ const skillList = [
         section: "design",
         name:  "CSS",
         status:  "Advanced",
-        image: "./images/dev/logo-css.png" 
+        imageName: "logo-css" 
     },
     {
         section: "design",
         name:  "Bootstrap",
         status:  "Advanced",
-        image: "./images/dev/logo-bootstrap.png" 
+        imageName: "logo-bootstrap" 
     },
     {
         section: "design",
         name:  "Material UI",
         status:  "Advanced",
-        image: "./images/dev/logo-material.png" 
+        imageName: "logo-material" 
     },
     
 
 ]
 
-export default skillList
+export default skillData

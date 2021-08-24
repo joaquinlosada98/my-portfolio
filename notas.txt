@@ -6,3 +6,24 @@ usos de imagenes gatsby:
 
 
 staticImage -> contact, JobExperiences
+
+
+
+query MyQuery {
+    allFile(
+        filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, relativeDirectory: {eq: "dev"}}
+    ) {
+        edges {
+        node {
+            id
+            name
+            absolutePath
+            childImageSharp {
+                gatsbyImageData(width: 60)
+                }
+        }
+        }
+    }
+}
+
+

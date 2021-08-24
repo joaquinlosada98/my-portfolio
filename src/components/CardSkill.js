@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import { getImage, GatsbyImage  } from "gatsby-plugin-image";
 
 const CardItem = styled.div`
     width: 100%;
@@ -32,7 +33,7 @@ const Title = styled.h3`
     color: #efefef;
 
 `
-const Image = styled.img`
+const Image = styled.div`
     width: 60px;
     margin: 10px auto;
     align-self: flex-start;
@@ -48,15 +49,21 @@ const CardText = styled.p`
 
 const CardSkill = ({title, status, img}) => {
 
+    const image = getImage(img);
+    //  console.log(image);
     return (
         <CardItem>
             <CardTitle>
                 <Title>{title}</Title>
-                <Image src={img}></Image>
+                <Image>
+                    <GatsbyImage image={image} alt="Funciona"/>
+                </Image>
+                
             </CardTitle>
             <CardText>Status: {status}</CardText>
         </CardItem>
     )
 }
+
 
 export default CardSkill

@@ -1,6 +1,11 @@
 import React from 'react';
 import MapSection from './MapSection/MapSection';
 import "./contact.css";
+
+import linkedin from '../../images/dev/linkedin.png';
+import gitlab from '../../images/dev/gitlab.png';
+import github from '../../images/dev/github.png';
+
 const Contact = () => {
 
 
@@ -41,9 +46,9 @@ const Contact = () => {
                             joaquinlosada1998@gmail.com
                         </a>
                         <div className="Links">
-                            <a href="https://www.linkedin.com/in/joaquin-losada/"><img alt="linkedin" src="../../../images/dev/linkedin.png"/></a>
-                            <a href="https://gitlab.com/joaquinlosada1998"><img alt="gitlab" src="../../../images/dev/gitlab.png"/></a>
-                            <a href="https://github.com/joaquinlosada98?tab=repositories"><img alt="github" src="../../../images/dev/github.png"/></a>
+                            <a href="https://www.linkedin.com/in/joaquin-losada/"><img alt="linkedin" src={linkedin}/></a>
+                            <a href="https://gitlab.com/joaquinlosada1998"><img alt="gitlab" src={gitlab}/></a>
+                            <a href="https://github.com/joaquinlosada98?tab=repositories"><img alt="github" src={github}/></a>
                         </div>
                         <div className="Cvs">
                             <a href="/pdfs/myPdf-english.pdf" download="myPdf-english.pdf">CV in English</a>

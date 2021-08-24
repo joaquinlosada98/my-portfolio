@@ -1,8 +1,18 @@
 import React from 'react';
 import "./jobexperiences.css";
 
-const JobExperiences = () => {
+import laravel  from '../../../images/dev/logo-laravel.png';
+import vuejs from '../../../images/dev/logo-vuejs.png';
+import mysql from '../../../images/dev/logo-mysql.png';
+import bootstrap from '../../../images/dev/logo-bootstrap.png';
 
+import aframe from '../../../images/dev/logo-aframe.png';
+import js from '../../../images/dev/logo-js.png';
+import css from '../../../images/dev/logo-css.png';
+
+
+const JobExperiences = () => {
+    
     return(
 
         <div className="JobExperiences">
@@ -20,10 +30,11 @@ const JobExperiences = () => {
                 </div>
                 <div className="tools">
                     <h3>Tools used: </h3>
-                    <img  alt="laravel" src="../../../images/dev/logo-laravel.png"/>  
-                    <img  alt="vuejs" src="../../../images/dev/logo-vuejs.png"/> 
-                    <img  alt="mysql" src="../../../images/dev/logo-mysql.png"/> 
-                    <img  alt="bootstrap" src="../../../images/dev/logo-bootstrap.png"/> 
+                    {/* <StaticImage src="../../../images/dev/logo-laravel.png"/> */}
+                    <img  alt="laravel" src={laravel}/>  
+                    <img  alt="vuejs" src={vuejs}/> 
+                    <img  alt="mysql"  src={mysql}/> 
+                    <img  alt="bootstrap"  src={bootstrap}/> 
                 </div>
                 
             </div>
@@ -39,9 +50,9 @@ const JobExperiences = () => {
                 </div>
                 <div className="tools">
                     <h3>Tools used: </h3>
-                    <img  alt="a-frame" src="../../../images/dev/logo-aframe.png"/>  
-                    <img  alt="js" src="../../../images/dev/logo-js.png"/> 
-                    <img  alt="css" src="../../../images/dev/logo-css.png"/> 
+                    <img  alt="a-frame" src={aframe}/>  
+                    <img  alt="js" src={js}/> 
+                    <img  alt="css" src={css}/> 
                 </div>
             </div>
         </div>
