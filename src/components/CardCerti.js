@@ -40,6 +40,10 @@ const CardSection = styled.div`
     @media (max-width: 530px){
         padding-bottom: ${(props) => props.collapseOn ? "150px"  : "75px"};
     }
+
+    @media(max-width: 450px){
+        padding-bottom: ${(props) => props.collapseOn ? "160px"  : "75px"};
+    }
 `
 
 const CardTitle = styled.h3`
@@ -88,7 +92,7 @@ const CardList = styled.ul`
 
     @media (max-width: 450px){
         left: -15px;
-        font-size: 12px;
+        font-size: 11.5px;
     }
 
     
