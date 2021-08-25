@@ -16,6 +16,7 @@ const CardItem = styled.div`
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 
     grid-template-rows: 40% auto;
+    overflow-y: hidden;
 
     &:hover {
         transform: translateY(-10px);
@@ -26,7 +27,6 @@ const CardItem = styled.div`
         min-height: 300px;
         min-width: 220px;
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
 `

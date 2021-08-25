@@ -9,6 +9,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
   }
   
   .CardGroup {
@@ -41,3 +42,10 @@
         grid-template-areas: "card1" "card2" "card3";
     }
   }
+
+  
+@media (max-width: 450px){ 
+  .AboutMe h2{ 
+      font-size: 55px;
+  }
+}

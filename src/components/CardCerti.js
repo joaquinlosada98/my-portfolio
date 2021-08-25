@@ -50,6 +50,10 @@ const CardTitle = styled.h3`
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 450px){
+        font-size: 20px;
+    }
  
 `
 
@@ -78,10 +82,16 @@ const CardList = styled.ul`
     @media (max-width: 530px){
         grid-column-gap: 8px;
         grid-row-gap: 1.8px;
-        left:0px;
+        left:-10px;
         font-size: 12.5px;
-
     }
+
+    @media (max-width: 450px){
+        left: -15px;
+        font-size: 12px;
+    }
+
+    
 `
 
 const Link = styled.a`

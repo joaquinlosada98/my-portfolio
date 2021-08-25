@@ -45,6 +45,10 @@ const ExperienceTitle = styled.h2`
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
+    @media (max-width: 450px){ 
+        font-size: 55px;
+    }
+
 `
 
 

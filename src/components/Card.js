@@ -28,6 +28,10 @@ const CardTitle = styled.h3`
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 450px){ 
+        font-size: 27px;
+    }
  
 `
 
@@ -35,6 +39,10 @@ const CardText = styled.p`
     color:black;
     font-size: 18px;
     margin: 10px 20px 20px 20px;
+
+    @media (max-width: 450px){ 
+        font-size: 17px;
+    }
 
 `
 const Card = ({title, children}) => {

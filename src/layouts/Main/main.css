@@ -14,42 +14,45 @@
     text-align: center;
 }
 
-.Main h1{
+.MainGroup h1{
     margin: 0;
     color: white;
     font-size: 40px;
     line-height: 1.5;
 }
 
-.Main .MainHello{
+.MainHello, .MainName {
     font-size: 45px;
     opacity: 0;
-    animation: MainAnimation;
-    animation-duration: 3s;
-    animation-delay: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Main .MainName{
-    font-size: 45px;
-    opacity: 0;
+.MainHello{
+    animation: MainAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MainName{
     animation: MainAnimation 3s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 
-.Main .MainSubtitle {
+.MainSubtitle {
     opacity: 0;
     animation: MainAnimation 3s 1.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.Main p{
+.MainGroup p{
     color: rgba(255, 255, 255, 0.8);
     font-size: 30px;
     line-height: 1.4;
 }
 
-.Main a {
+.links {
+    padding: 25px 0;
+    display: block;
+    line-height: 2;
+}
+
+.links a {
     font-size: 14px;
     font-weight: 600;
     color: white;
@@ -63,11 +66,19 @@
     z-index: 50;
 }
 
-.Main a:hover {
+.links a:hover {
     background: white;
     color: black;
     border: 2px solid rgba(0, 0, 0, 0.25);
 }
+
+
+.Main svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 
 @keyframes MainAnimation {
@@ -85,13 +96,28 @@
     .MainGroup{
         padding: 530px 50px 50px;
     }
-    .Main h1{
+    .MainGroup h1{
         font-size: 35px;
     }
 }
 
-.Main svg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+@media (max-width: 450px){ 
+    .MainGroup {
+        padding: 515px 30px 200px;
+    }
+
+    .MainHello, .MainName{
+        font-size: 37px;
+    }
+    .MainSubtitle {
+        font-size: 30px;
+    }
+    .MainGroup p {
+        font-size: 26px;
+    }
+/* 
+    .links a{
+        padding: 35px 0;
+    } */
+
 }

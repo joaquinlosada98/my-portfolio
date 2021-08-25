@@ -80,3 +80,12 @@
     }
   }
   
+
+  @media (max-width: 450px){ 
+    .DevSkills h2{
+        font-size: 45px;
+    }
+    .DevHeader Button {
+        font-size: 15px;
+    }
+  }

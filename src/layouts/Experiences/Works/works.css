@@ -15,7 +15,6 @@
     width:  100%;
     display: flex;
     overflow-x: scroll;
-    overflow-y: hidden;
     white-space: nowrap;
     transition: all 0.2s;
     transform: scale(0.98);
@@ -30,4 +29,10 @@
     cursor: grabbing;
     cursor: -webkit-grabbing;
     transform: scale(1);
+}
+
+@media (max-width: 450px){
+    .Works h2 {
+        font-size: 45px;
+    }
 }

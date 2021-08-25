@@ -31,6 +31,9 @@ const Title = styled.h3`
     margin: 20px 0px 20px 20px;
     font-size: 25px;
     color: #efefef;
+    @media (max-width: 450px){ 
+        font-size: 22px;
+    }
 
 `
 const Image = styled.div`
@@ -43,6 +46,9 @@ const Image = styled.div`
 const CardText = styled.p`
     margin: 20px 20px;
     color: #efefef;
+    @media (max-width: 450px){ 
+        font-size: 18px;
+    }
 `
 
 

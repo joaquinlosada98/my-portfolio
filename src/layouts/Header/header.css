@@ -13,19 +13,19 @@
     align-items: center;
     justify-items: center;
 }
-.Header img {
+.HeaderGroup img {
     width: 60px;
     pointer-events: none;
 }
 
-.Header a {
+.HeaderGroup  a {
     color: white;
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
 }
 
-.Header Button {
+.HeaderGroup Button {
     padding: 8px 20px;
     border: none;
     background-color: rgb(0, 189, 214);
@@ -37,14 +37,10 @@
 
 }
 
-.Header Button:hover {
+.HeaderGroup  Button:hover {
     background: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
     transform: translateY(-3px);
-    /* 
-        Al realizar el evento, el boton se levanta un poco hacia arriba, 
-        dando una sensacion de 3d
-    */
 }
 
 .HeaderScroll{
@@ -54,10 +50,6 @@
 }
 
 @media (max-width: 640px) {
-    .Header {
-        padding: 15px 0;
-    }
-
     .HeaderGroup {
         grid-template-columns: repeat(4, auto);
     }
@@ -67,3 +59,19 @@
 }
 
 
+@media (max-width: 450px){
+
+    .HeaderGroup img{
+        width: 50px;
+    }
+
+    .HeaderGroup a {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .HeaderGroup Button {
+        padding: 6px 18px;
+        font-weight: 700;
+    }
+}

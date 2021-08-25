@@ -14,10 +14,10 @@ const Main = () => {
                     I work as front-end and fullstack 
                 </p>
             
-                <p>
+                <div className="links">
                     <a href="/contact">Contact Me</a> <br />
                     <a href="/about-me">More about me</a>
-                </p>   
+                </div>   
             </div>
 
             <Wave/>

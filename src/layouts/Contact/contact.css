@@ -134,3 +134,13 @@
         width: 60%;
     }
 }
+
+
+@media (max-width: 450px){
+    .Contact h2{
+        font-size: 55px;
+    }
+    .Form,  #mail{
+        font-size: 18px;
+    }
+}

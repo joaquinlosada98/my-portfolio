@@ -27,3 +27,26 @@ query MyQuery {
 }
 
 
+TAREA: 
+
+Hacer responsive para mobile (todas las secciones)
+Terminar los textos y pasarlos a ingles 
+
+HEADER:
+    - arreglar links con gatsby link o utilizar scroll de gatsby (OPCIONAL)
+MAIN: 
+    - agregar links para scroll 
+
+DevSkills: 
+
+Job Experience: 
+
+My Works: 
+    - Revisar textos, agregar links de repositorio
+    - Agregar imagenes de cada proyecto  (graphQl)
+Studies: 
+    - Agregar los links de certificado y usar Link de gatsby 
+
+Contact Me: 
+    - Arreglar links para descargar PDF! -> No debe estar almacenado en /PUBLIC
+
