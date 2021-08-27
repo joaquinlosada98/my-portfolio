@@ -25,12 +25,12 @@ const Studies = () => {
                 
                 <div className="StudiesGroup">
 
-                    <CardStudie title={'Escuela tecnica N°26 "Condeferación Suiza"'}>
-                        Tecnico en computacion (2016)
+                    <CardStudie title={'Technical School No. 26 "Swiss Confederation"'}>
+                        Computer technician (2016)
                     </CardStudie>
 
-                    <CardStudie title={"Universidad Argentina de la Empresa"}>
-                        Ingenieria en informatica (2018 - actualidad)
+                    <CardStudie title={"Argentine University of the Company (UADE)"}> 
+                        Computer Engineering (2018 - present)
                     </CardStudie>
 
                     

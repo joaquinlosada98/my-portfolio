@@ -13,11 +13,10 @@ const AboutMe = () => {
                 Me considero una persona simple, disfruto una cerveza con amigos, viajar, conocer gente nueva. Esto siempre me motivó a tener como prioridad sentirme cómodo donde estoy.
                 </Card>
                 <Card title="What I'm Doing">
-                Actualmente me encuentro en Madrid, estudiando desde mi casa y analizando nuevos proyectos de los cuales quiero formar parte.
+                Actualmente me encuentro en Madrid, estudiando desde mi casa, creando musica y analizando nuevos proyectos de programacion de los cuales quiero formar parte. Siento que cada dia que estoy trabajando es una nueva experiencia que voy adquiriendo.
                 </Card>
                 <Card title="What I hope to do">
-                Quiero recibirme de ingeniero en informatica, publicar mi material musical en linea, 
-                y seguir trabajando en las cosas que mas me gusta 
+                Espero seguir desarrollandome profesionalmente, adquiriendo conocimientos y poder reflejarlos tanto proyectos que esté realizando como en el trabajo en equipo. Ademas, pretendo seguir creando musica, y poder publicar en linea mis futuras composiciones.  
                 </Card>
             </div>
         </div>

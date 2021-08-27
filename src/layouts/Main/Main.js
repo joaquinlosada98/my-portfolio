@@ -1,5 +1,6 @@
 import React from 'react';
 import Wave from '../../components/Wave';
+import { Link } from 'react-scroll';
 import './main.css';
 
 const Main = () => {
@@ -15,8 +16,29 @@ const Main = () => {
                 </p>
             
                 <div className="links">
-                    <a href="/contact">Contact Me</a> <br />
-                    <a href="/about-me">More about me</a>
+                    <Link
+                        activeClass="active"
+                        to="Contact-Me"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={1000}
+                    >
+                        Contact Me
+                    </Link>
+
+                    <br />
+
+                    <Link
+                        activeClass="active"
+                        to="About-me"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={1000}
+                    >
+                        More about me
+                    </Link>
                 </div>   
             </div>
 

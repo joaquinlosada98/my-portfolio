@@ -35,7 +35,8 @@ const Contact = () => {
             <div className="ContactGroup">
                 <div className="Form">
                     <h3>Let's get in touch</h3>
-                    <p>Estoy a la escucha de oportunidades para trabajar en proyectos de largo plazo o tiempo indefinido.</p>
+                    <p>I am listening for opportunities to work on long-term or indefinite time projects.</p>
+                    {/* <p>Estoy a la escucha de oportunidades para trabajar en proyectos de largo plazo o tiempo indefinido.</p> */}
                     <h3>Social Accounts: </h3>
                     <div className="ContactList">
                         <a href="/mail" id="mail" 

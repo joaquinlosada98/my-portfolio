@@ -128,7 +128,7 @@ const CardCerti = ({collapse, setCollapse}) => {
 
             <CardSection collapseOn={collapse}>
 
-                <CardTitle>Estudios y certificados: </CardTitle>
+                <CardTitle>Studies and certifications: </CardTitle>
                 
 
                 <CardList>
