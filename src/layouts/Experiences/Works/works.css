@@ -12,9 +12,15 @@
 .WorksGroup { 
     margin: 0px auto 100px;
     padding: 20px 0 40px;
+    
+    /* chequeado */
+    
     width:  100%;
     display: flex;
+    
     overflow-x: scroll;
+    overflow-y: hidden;
+
     white-space: nowrap;
     transition: all 0.2s;
     transform: scale(0.98);

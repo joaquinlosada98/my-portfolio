@@ -16,30 +16,36 @@ class Works extends Component {
     }
 
     mouseDown = (e) => {
+        this.setState({isDown: true});
+
         const slider = document.querySelector('.WorksGroup');
         slider.classList.add('active');
+
         this.setState({
-            isDown: true,
             startX: e.pageX - slider.offsetLeft,
             scrollLeft: slider.scrollLeft
         })
     }
 
     mouseLeave = () => {
+        this.setState({isDown: false});
+
         const slider = document.querySelector('.WorksGroup');
         slider.classList.remove('active');
-        this.setState({isDown: false})
+
     }
 
     mouseUp = () => {
+        this.setState({isDown: false});
+
         const slider = document.querySelector('.WorksGroup');
         slider.classList.remove('active');
-        this.setState({isDown:false})
+
     }
 
     mouseMove = (e) => {
         const slider = document.querySelector('.WorksGroup');
-        if(this.state.isDown) {
+        if(this.state.isDown === true) {
 
             e.preventDefault();
             const x = e.pageX - slider.offsetLeft;
